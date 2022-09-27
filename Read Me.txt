@@ -1,0 +1,13 @@
+How to compile Server.c
+gcc Server.c -o Server
+
+How to compile Client.c
+gcc Client.c -o Client
+
+Command to run Server
+./Server PortNo WindowSize TimeOut
+Example:- ./Server 4000 2 2
+
+Command to run Client
+./Client IPAddress PortNo SL/AL SLNum/ALNum [F|N]
+Example:- ./Client 127.0.0.1 4000 SL 512 F
